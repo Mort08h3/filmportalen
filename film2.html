@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="film2.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header id="header">
+        <div class="burger">
+            <span onclick="openNav()">&#9776;</span>
+        </div>
+
+        <div class="logo">
+            <a href="film2.html">
+                <img src="logo.png" alt="">
+            </a>
+        </div>
+        <a id="top"></a>
+    </header>
+
+    <nav>
+        <div id="menu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <button class="filter valgt" data-genre="alle">Alle</button>
+            <button class="filter gap" data-genre="dokumentar">Dokumentar</button>
+            <button class="filter" data-genre="gyser">Gyser</button>
+            <button class="filter" data-genre="komedier">Komedier</button>
+            <button class="filter gap" data-genre="pitter">Brad Pitter</button>
+            <button class="filter" data-genre="erotik">Erotik</button>
+            <button class="filter" data-genre="cluster">Clusterfucks</button>
+        </div>
+    </nav>
+
+
+
+    <div id="wrapper">
+
+
+        <h1 id="overskrift">Alle</h1>
+
+        <!--  TIL SLIDE-IN POPUP   -->
+
+        <section id="detalje" class="skjul">
+            <article id="produkt">
+
+                <div class="row_wrapper">
+                    <div class="main_wrapper">
+                        <div class="titel">
+                            <h2 id="popup-film"></h2>
+                        </div>
+
+                        <div class="pic">
+
+                            <img src="" alt="">
+                            <p id="popup-rating"></p>
+
+                        </div>
+                        <div class="info1">
+                            <p id="popup-instruktør"> </p>
+                        </div>
+                        <div class="info2">
+                            <p id="popup-spilletid"></p>
+
+                        </div>
+                        <div class="info3">
+
+                            <p id="popup-skuespillere"></p>
+                        </div>
+                        <div class="info4">
+                            <p id="popup-produktion"></p>
+
+                        </div>
+                        <div class="info5">
+
+                            <p id="popup-op"> </p>
+                        </div>
+
+                        <div class="info6">
+
+                            <p id="popup-beskrivelse"></p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="share"><i class="far fa-copy"></i>
+                </div>
+                <div class="luk"><i class="far fa-window-close"></i></div>
+
+
+            </article>
+        </section>
+        <section class="data-container" id="main"></section>
+
+
+
+
+        <template>
+            <article id="produkt">
+                <img src="" alt="">
+            </article>
+        </template>
+
+
+        <footer id="footer">
+            <div class="link-wrap">
+                <a href="#top">Til toppen</a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/773391977c.js" crossorigin="anonymous"></script>
+    <script src="film2.js"></script>
+</body>
+
+</html>
